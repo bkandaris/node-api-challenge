@@ -40,13 +40,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+I learned that express is a helpful framework for Node JS that helps developers and that there is a tool for almost everything you need, but if you can't find that tool you can create your own custom middleware.
+
 - [ ] Describe Middleware?
+
+Middleware is kind of like arms on an assembly line that your request passes through and can perform tasks needed.
 
 - [ ] Describe a Resource?
 
+A resource is a URL endpoint where a developer can base CRUD operations using HTTP methods.
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+A message (some are prebuilt in or you can create custom messages) Ex: .json({ message: "message for client" })
+
 - [ ] How can we partition our application into sub-applications?
+
+We can break up our server into custom routes to make managing our codebase easier
 
 ## Minimum Viable Product
 
